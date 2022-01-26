@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Person_Edit_Win</class>
+    <widget class="QDialog" name="Person_Edit_Win">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>822</width>
+                <height>322</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Dialog</string>
+        </property>
+        <widget class="QDialogButtonBox" name="buttonBox">
+            <property name="geometry">
+                <rect>
+                    <x>240</x>
+                    <y>284</y>
+                    <width>151</width>
+                    <height>32</height>
+                </rect>
+            </property>
+            <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="standardButtons">
+                <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+            </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>80</y>
+                    <width>351</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>14</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>NAME</string>
+            </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>150</y>
+                    <width>381</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>14</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>DATE OF BIRTH</string>
+            </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>214</y>
+                    <width>381</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>14</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>POSITION</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit" name="person_name">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>110</y>
+                    <width>381</width>
+                    <height>31</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QDateEdit" name="person_date">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>174</y>
+                    <width>381</width>
+                    <height>31</height>
+                </rect>
+            </property>
+            <property name="calendarPopup">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QLineEdit" name="person_position">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>244</y>
+                    <width>381</width>
+                    <height>31</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QDialogButtonBox" name="EditSave_buttonBox">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>284</y>
+                    <width>151</width>
+                    <height>31</height>
+                </rect>
+            </property>
+            <property name="standardButtons">
+                <set>QDialogButtonBox::NoButton</set>
+            </property>
+            <property name="centerButtons">
+                <bool>false</bool>
+            </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>10</y>
+                    <width>351</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>14</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>ID</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit" name="person_id">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>40</y>
+                    <width>381</width>
+                    <height>31</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+            <property name="geometry">
+                <rect>
+                    <x>430</x>
+                    <y>10</y>
+                    <width>351</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>14</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>ЗДАНИЕ</string>
+            </property>
+        </widget>
+        <widget class="QComboBox" name="building_box">
+            <property name="geometry">
+                <rect>
+                    <x>430</x>
+                    <y>40</y>
+                    <width>301</width>
+                    <height>31</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QTableWidget" name="keys_table">
+            <property name="geometry">
+                <rect>
+                    <x>430</x>
+                    <y>110</y>
+                    <width>381</width>
+                    <height>201</height>
+                </rect>
+            </property>
+            <attribute name="horizontalHeaderVisible">
+                <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+                <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+                <bool>false</bool>
+            </attribute>
+            <column>
+                <property name="text">
+                    <string>Key_Name</string>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>Key_ID</string>
+                </property>
+            </column>
+        </widget>
+        <widget class="QLabel" name="label_9">
+            <property name="geometry">
+                <rect>
+                    <x>430</x>
+                    <y>80</y>
+                    <width>351</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>14</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>КЛЮЧИ</string>
+            </property>
+        </widget>
+        <widget class="Line" name="line">
+            <property name="geometry">
+                <rect>
+                    <x>400</x>
+                    <y>10</y>
+                    <width>20</width>
+                    <height>301</height>
+                </rect>
+            </property>
+            <property name="orientation">
+                <enum>Qt::Vertical</enum>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="btn_add_key">
+            <property name="geometry">
+                <rect>
+                    <x>740</x>
+                    <y>40</y>
+                    <width>31</width>
+                    <height>31</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>add_key</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="btn_del_key">
+            <property name="geometry">
+                <rect>
+                    <x>780</x>
+                    <y>40</y>
+                    <width>31</width>
+                    <height>31</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>del_key</string>
+            </property>
+        </widget>
+    </widget>
+    <resources/>
+    <connections>
+        <connection>
+            <sender>buttonBox</sender>
+            <signal>accepted()</signal>
+            <receiver>Person_Edit_Win</receiver>
+            <slot>accept()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>248</x>
+                    <y>254</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>157</x>
+                    <y>274</y>
+                </hint>
+            </hints>
+        </connection>
+        <connection>
+            <sender>buttonBox</sender>
+            <signal>rejected()</signal>
+            <receiver>Person_Edit_Win</receiver>
+            <slot>reject()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>316</x>
+                    <y>260</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>286</x>
+                    <y>274</y>
+                </hint>
+            </hints>
+        </connection>
+    </connections>
+</ui>

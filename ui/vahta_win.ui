@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>VahtaWindow</class>
+    <widget class="QMainWindow" name="VahtaWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>313</width>
+                <height>317</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QPushButton" name="btn_give_the_key">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>10</y>
+                        <width>291</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>ВЫДАТЬ КЛЮЧ</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="btn_return_the_key">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>80</y>
+                        <width>291</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>ПРИНЯТЬ КЛЮЧ</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="btn_key_report">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>150</y>
+                        <width>291</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>ДАННЫЕ О КЛЮЧЕ</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="btn_exit">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>220</y>
+                        <width>291</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>14</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>ВЫХОД</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>313</width>
+                    <height>21</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
